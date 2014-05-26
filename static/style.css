@@ -16,13 +16,13 @@ body {
 
 img#smallImage {
     display:none;
-    width:90%;
+    width:90em;
     margin: auto;
 }
     
 img#largeImage{
     display:none;
-    width: 100%;
+    width: 100em;
     margin: auto;
     margin-top: 10px;
 }
