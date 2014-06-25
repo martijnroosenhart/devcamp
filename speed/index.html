@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="static/main.css">
+    <title>Dashboard</title>
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="static/script.js" type="text/javascript"></script>
+</head>
+
+<body>  
+
+	<div class="bg">    
+		<div id="map">
+		</div> 
+	</div>
+	
+	
+	<section class="audio">
+		<audio id="audio_left" src="sound/hard +100_links.mp3" controls preload="auto" autobuffer>
+		</audio>
+		
+		<audio id="audio_right" src="sound/zacht -60_rechts.mp3" controls preload="auto" autobuffer>
+		</audio>
+		
+		<audio id="alarm_hard_right" src="sound/hard +100_rechts.mp3" controls preload="auto" autobuffer>
+		</audio>
+	</section>
+	
+	
+	
+	<section class="links">
+		<img class="knipper_links" src="afb/arrowleft.png" value="Play Sound" onClick="EvalSound('audio_left')">
+	</section>
+	
+	<section class="rechts">
+		<img class="knipper_rechts" src="afb/arrowright.png" value="Play Sound" onClick="EvalSound('audio_right')">
+	</section>
+	
+	<section class="alarm">
+		<img class="alarm_licht" src="afb/triangle.png" value="Play Sound" onClick="EvalSound('alarm_hard_right')">
+	</section>
+	
+	<section class="speed">
+		<img class="snelheid" src="afb/speed.png">
+	</section>
+
+ 
+</body>
+</html>

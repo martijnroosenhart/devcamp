@@ -1,0 +1,62 @@
+.bg {
+    border-style: dotted;
+    border-width: 1px;
+	height: 350px;
+	width: 960px;
+	background-color: white;
+}
+
+
+#map { 
+	width: 960px; 
+	height: 350px; 
+}
+
+section.links{
+	top: -351px;
+	position: relative;
+	height: 350px;
+	width: 90px;
+	background: black;
+	opacity: .6;
+}
+
+img.knipper_links{
+	margin-top: 115px;
+	margin-left: 16px;
+}
+
+section.rechts{
+	top: -701px;
+	position: relative;
+	height: 350px;
+	width: 90px;
+	background: black;
+	opacity: .6;
+	left: 872px;
+}
+
+img.knipper_rechts{
+	margin-top: 115px;
+	margin-left: 30px;
+}
+
+section.alarm{
+	top: -800px;
+	position: relative;
+	left: 30px;
+}
+section.speed{
+	top: -1151px;
+	position: relative;
+	width: 100px;
+	left: 125px;
+}
+
+section.speed img{
+	width: 100px;
+}
+
+section.audio{
+	display: none;
+}
